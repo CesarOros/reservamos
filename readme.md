@@ -28,3 +28,8 @@ _example:_
 http://127.0.0.1:8000/weather?cityname=mexico
 
 **even you can check the application in this link:**
+
+https://reservamos-1.onrender.com/weather/?cityname=
+_example:_
+
+https://reservamos-1.onrender.com/weather/?cityname=culiacan
