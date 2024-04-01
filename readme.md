@@ -4,12 +4,16 @@
 - $ venv\Scripts\activate - windows
 - $ source venv/bin/activate - macos/linux
 - $ pip install -r requirements.txt`
+- $ python manage.py runserver
 
 **For environment variables**
-_reservamos_
+_Reservamos_
+
 you need your own BASE_URL_RESERVAMOS
+
 _OPEN WEATHER_
-you need your own API_KEY and BASE_URL_RESERVAMOS
+
+you need your own API_KEY and BASE_URL_OPEN_WEATHER
 
 **For run application**
 
@@ -18,6 +22,7 @@ you need your own API_KEY and BASE_URL_RESERVAMOS
 It will run on http://127.0.0.1:8000/
 
 **Endpoints:**
+
 http://127.0.0.1:8000/weather?cityname=
 _example:_
 http://127.0.0.1:8000/weather?cityname=mexico
