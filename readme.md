@@ -1,9 +1,10 @@
 **Configure your environment**
 
-- $ python -m venv
+- $ python -m venv venv
 - $ venv\Scripts\activate - windows
 - $ source venv/bin/activate - macos/linux
-- $ pip install -r requirements.txt`
+- $ pip install -r requirements.txt
+- $ Create an .env file on ./ directory
 - $ python manage.py runserver
 
 **For environment variables**
@@ -24,7 +25,9 @@ It will run on http://127.0.0.1:8000/
 **Endpoints:**
 
 http://127.0.0.1:8000/weather?cityname=
+
 _example:_
+
 http://127.0.0.1:8000/weather?cityname=mexico
 
 **even you can check the application in this link:**
