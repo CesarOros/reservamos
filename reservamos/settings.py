@@ -28,6 +28,10 @@ SECRET_KEY = 'django-insecure-deo774r+toik$$ov-$wj72p15ge@+$8(12@x7ru88o593(45zd
 DEBUG = 'RENDER' not in os.environ
 
 ALLOWED_HOSTS = []
+RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
+
+if RENDER_EXTERNAL_HOSTNAME:
+    ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
 
 
 # Application definition
